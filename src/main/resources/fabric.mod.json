@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "boatpick",
+  "version": "${version}",
+
+  "name": "BoatPick!",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "shizotoaster"
+  ],
+  "contact": {
+    "sources": "https://github.com/shizotoaster/boatpick"
+  },
+
+  "license": "MIT",
+  "icon": "assets/boatpick/boatpick_icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.shizotoaster.boatpick.BoatPick"
+    ]
+  },
+  "mixins": [
+    "boatpick.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "minecraft": "*",
+    "java": ">=17"
+  }
+}
